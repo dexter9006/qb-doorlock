@@ -70,7 +70,7 @@ table.insert(Config.DoorList, {
 	doors = {
 		{objHash = -434783486, objHeading = 340.00003051758, objCoords = vector3(312.0052, -571.3412, 43.43392)}, -- gabz_pillbox_doubledoor_r
 		{objHash = -1700911976, objHeading = 340.00003051758, objCoords = vector3(314.4242, -572.2216, 43.43392)} -- gabz_pillbox_doubledoor_l
- 	},
+		},
 	-- oldMethod = true,
 	-- audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
 	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
@@ -88,7 +88,7 @@ table.insert(Config.DoorList, {
 	doors = {
 		{objHash = -434783486, objHeading = 340.00003051758, objCoords = vector3(317.8426, -573.4658, 43.43392)}, -- gabz_pillbox_doubledoor_r
 		{objHash = -1700911976, objHeading = 340.00003051758, objCoords = vector3(320.2616, -574.3464, 43.43392)} -- gabz_pillbox_doubledoor_l
- 	},
+		},
 	-- oldMethod = true,
 	-- audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
 	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
@@ -106,7 +106,7 @@ table.insert(Config.DoorList, {
 	doors = {
 		{objHash = -434783486, objHeading = 340.00003051758, objCoords = vector3(323.2376, -575.4294, 43.43392)}, -- gabz_pillbox_doubledoor_r
 		{objHash = -1700911976, objHeading = 340.00003051758, objCoords = vector3(325.6566, -576.31, 43.43392)} -- gabz_pillbox_doubledoor_l
- 	},
+		},
 	-- oldMethod = true,
 	-- audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
 	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
@@ -124,7 +124,7 @@ table.insert(Config.DoorList, {
 	doors = {
 		{objHash = -434783486, objHeading = 160.00003051758, objCoords = vector3(318.4846, -579.2282, 43.43392)}, -- gabz_pillbox_doubledoor_r
 		{objHash = -1700911976, objHeading = 160.00003051758, objCoords = vector3(316.0658, -578.3478, 43.43392)} -- gabz_pillbox_doubledoor_l
- 	},
+		},
 	-- oldMethod = true,
 	-- audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
 	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
@@ -344,8 +344,6 @@ table.insert(Config.DoorList, {
 
 -- DOWNSTAIRS -------------------------------------------------------------------------------------
 
-
-
 -- Reception
 table.insert(Config.DoorList, {
 	lockpick = false,
@@ -370,7 +368,7 @@ table.insert(Config.DoorList, {
 	doors = {
 		{objHash = -434783486, objHeading = 70.006050109864, objCoords = vector3(338.4466, -590.053, 28.9471)}, -- gabz_pillbox_doubledoor_r
 		{objHash = -1700911976, objHeading = 70.006050109864, objCoords = vector3(339.3266, -587.6346, 28.9471)} -- gabz_pillbox_doubledoor_l
- },
+		},
 	lockpick = false,
 	locked = true,
 	maxDistance = 2.5,
@@ -388,7 +386,7 @@ table.insert(Config.DoorList, {
 	doors = {
 		{objHash = 1674289593, objHeading = 70.006050109864, objCoords = vector3(340.7712, -583.942, 27.79682)}, -- gabz_pillbox_elevdoor_l
 		{objHash = -1048421071, objHeading = 70.006050109864, objCoords = vector3(340.1254, -585.717, 27.79682)} -- gabz_pillbox_elevdoor_l
- 	},
+		},
 	lockpick = false,
 	locked = true,
 	maxDistance = 2.0,

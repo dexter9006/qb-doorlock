@@ -438,6 +438,19 @@ table.insert(Config.DoorList, {
 	}
 })
 
+-- Armoury 3
+table.insert(Config.DoorList, {
+	fixText = true,
+	objHash = -1406685646,
+	objCoords = vector3(458.65, -976.89, 30.82),
+	locked = true,
+	objHeading = 30.82,
+	maxDistance = 2,
+	authorizedJobs = {
+		['police'] = 0
+	}
+})
+
 -- Shooting range
 table.insert(Config.DoorList, {
 	maxDistance = 2,
